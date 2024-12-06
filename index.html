@@ -1,11 +1,109 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEO Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a0dad, #2f1b67); /* пурпурный и темный фон */
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        a {
+            display: none;
+        }
+
+        .instructions {
+            background-color: #4b0082;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            max-width: 900px;
+            text-align: left;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .instructions h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .instructions p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .instructions code {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: #ddd;
+        }
+    </style>
 </head>
 <body>
     <h1>SEO Page</h1>
-    <p>Добро пожаловать!</p>
+    <p>Добро пожаловать! Этот инструмент поможет вам анализировать количество ключевых слов на страницах URL.</p>
+
     <a href="https://xn-----6kcaabbk6a4aocn4aehyq7l.xn--p1ai/" style="display:none;">Комета казино</a>
+
+    <div class="content">
+        <h2>Как использовать инструмент для анализа ключевых слов:</h2>
+        <p>Этот инструмент позволяет вам проанализировать, сколько раз определенные ключевые слова встречаются на веб-странице. Вам нужно только запустить Python-скрипт, указав URL и ключевые слова, и инструмент сделает анализ.</p>
+
+        <div class="instructions">
+            <h2>Шаги для использования:</h2>
+            <p>1. Скачайте репозиторий с GitHub: <a href="https://github.com/neuro-random/seo-keyword-tool" target="_blank">SEO Keyword Tool</a>.</p>
+            <p>2. Откройте терминал и перейдите в папку с репозиторием.</p>
+            <p>3. Установите необходимые зависимости, выполнив команду:</p>
+            <code>pip install -r requirements.txt</code>
+            <p>4. Запустите скрипт с помощью команды, указав URL страницы и ключевые слова:</p>
+            <code>python main.py <URL> <ключевое_слово1> <ключевое_слово2> ...</code>
+            <p>Пример:</p>
+            <code>python main.py https://example.com "seo" "keyword" "analysis"</code>
+            <p>Скрипт подсчитает, сколько раз встречаются эти слова на странице и выведет результаты в терминале.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 SEO Tool by neuro-random</p>
+    </div>
 </body>
 </html>
+
